@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="template/styles/css/style.css" />
+	<link rel="stylesheet" href="template/styles/css/responsive.css" />
+	<script src="template/scripts/libs.js"></script>
+	<script src="template/scripts/common.js"></script>
+	<!--[if lt IE 9]>
+	<script>
+		document.createElement('header');
+		document.createElement('nav');
+		document.createElement('main');
+		document.createElement('section');
+		document.createElement('article');
+		document.createElement('aside');
+		document.createElement('footer');
+	</script>
+	<![endif]-->
+</head>
+<body>
+<div class="panel">
+	<div class="case">
+		<div class="panel__wrap row">
+			<a href="" class="panel__logo logo"><img src="upload/logo.png" alt="" class="logo__img"><span class="logo__text">Продажа расходных материалов <br>и мед.оборудования от производителя <br>по всей России</span></a>
+			<div class="panel__address"><img src="upload/svg/placeholder.svg" width="21"><p>Москва, Можайское шоссе 165, <br>строение 1 <br>Время работы: 09:00-21:00</p></div>
+			<div class="panel__contacts">
+				<div class="panel__phone"><a href="tel:+74959799003">8 (495) 979-90-03</a></div>
+				<div class="panel__email"><a href="mailto:info@medshape.ru">info@medshape.ru</a></div>
+			</div>
+			<a data-fancybox data-src="#popup-callback" href="javascript:;"  class="panel__btn-callback btn btn_border-blue btn_hover-bg-blue btn_hover-text-white btn_small">Перезвоните мне</a>
+		</div>
+	</div>
+</div>
+<header class="header bg">
+	<div class="case">
+		<div class="header__wrap thanks">
+			<div class="header__title">Спасибо за доверие!</div>
+			<div class="header__text">
+				<p>Мы свяжемся с Вами в ближайшее время.</p>
+				<p>Работаем с 9:00 до 21:00</p>
+			</div>
+			<a href="" class="header__btn btn btn_border-white btn_bg-white btn_hover-bg-transparent btn_hover-text-white btn_normal">Вернуться на главную</a>
+			</div>
+			<div class="header__round">
+				<div class="header__round-procent"><img src="upload/procent.png" alt=""></div>
+				<div class="header__round-text">Действуют особые <br>условия для <strong>отделов <br>закупок больниц <br>и поликлиник</strong></div>
+			</div>
+		</div>	
+	</div>
+</header>
+
+<footer class="footer">
+	<div class="case">
+		<div class="footer__wrap row between">
+			<div class="footer__left">
+				<div class="footer__contacts">
+					<a href="" class="footer__logo"><img src="upload/logo.png" alt=""></a>
+					<div class="footer__data">
+						<div class="footer__address">Москва, Можайское шоссе 165, строение 1</div>
+						<div class="footer__email"><a href="mailto:info@medshape.ru">info@medshape.ru</a></div>
+					</div>
+				</div>
+				<div class="footer__copy">
+					<p><a data-fancybox data-src="#popup-policy" href="javascript:;">Политика конфиденциальности</a></p>
+					<p>Информация на сайте не является публичной офертой</p>
+				</div>
+			</div>
+			<div class="footer__right">
+				<div class="footer__phone"><a href="tel:+74959799003">8 (495) 979-90-03</a></div>
+				<a data-fancybox data-src="#popup-callback" href="javascript:;" class="footer__btn-callback btn btn_border-blue btn_hover-bg-white btn_hover-border-white btn_hover-text-black btn_small">Перезвоните мне</a>
+				<div class="footer__dev">Разработка сайта: <a href="http://matreshka.digital/" target="_blank">MATRESHKA.digital</a></div>
+			</div>
+		</div>
+	</div>
+</footer>
+<div class="popup popup-callback" id="popup-callback">
+	<div class="form">
+		<form>
+			<div class="form__title">Обратный звонок</div>
+			<div class="form__input input"><input type="text" name="name" placeholder="Введите Ваше имя"></div>
+			<div class="form__input input input_phone"><input type="text" name="phone" placeholder="Введите Ваш телефон" required="required"></div>
+			<div class="form__checkbox checkbox"><input type="checkbox" required="required"><label>Я принимаю условия передачи данных</label></div>
+			<button class="form__btn btn btn_bg-white btn_border-white btn_hover-bg-transparent btn_normal">Отправить</button>
+		</form>
+	</div>
+</div>
+<div class="popup popup-callback" id="popup-consult">
+	<div class="form">
+		<form>
+			<div class="form__title">Запись на консультацию</div>
+			<div class="form__input input"><input type="text" name="name" placeholder="Введите Ваше имя"></div>
+			<div class="form__input input input_phone"><input type="text" name="phone" placeholder="Введите Ваш телефон" required="required"></div>
+			<div class="form__checkbox checkbox"><input type="checkbox" required="required"><label>Я принимаю условия передачи данных</label></div>
+			<button class="form__btn btn btn_bg-white btn_border-white btn_hover-bg-transparent btn_normal">Отправить</button>
+		</form>
+	</div>
+</div>
+<div class="popup popup-policy" id="popup-policy">
+	<div class="form__title">Политика конфиденциальности</div>
+	<div class="popup__wrap">
+		<div class="popup__text">
+			<h2>lorem</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente asperiores velit atque dolor, voluptatem, vitae ducimus delectus facilis repellendus expedita, incidunt itaque neque natus. In ducimus sed deserunt illo cumque, repellendus a quidem dolore aut fugiat sit quo quas maxime rerum, laudantium possimus. Fugit harum, nostrum ab tempore error dignissimos dolores perferendis maiores quam. Fuga labore, aspernatur laboriosam quo officia deserunt, saepe quia error est enim doloremque praesentium vero, ipsa nemo! Numquam quibusdam hic delectus nam voluptate eos, fugit laboriosam consequatur sint impedit dolores incidunt, quam quaerat doloremque, error ratione ipsum culpa! Dolorum molestias accusantium fugit enim et eveniet error.</p>
+			<h3>lorem</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente asperiores velit atque dolor, voluptatem, vitae ducimus delectus facilis repellendus expedita, incidunt itaque neque natus. In ducimus sed deserunt illo cumque, repellendus a quidem dolore aut fugiat sit quo quas maxime rerum, laudantium possimus. Fugit harum, nostrum ab tempore error dignissimos dolores perferendis maiores quam. Fuga labore, aspernatur laboriosam quo officia deserunt, saepe quia error est enim doloremque praesentium vero, ipsa nemo! Numquam quibusdam hic delectus nam voluptate eos, fugit laboriosam consequatur sint impedit dolores incidunt, quam quaerat doloremque, error ratione ipsum culpa! Dolorum molestias accusantium fugit enim et eveniet error.</p>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente asperiores velit atque dolor, voluptatem, vitae ducimus delectus facilis repellendus expedita, incidunt itaque neque natus. In ducimus sed deserunt illo cumque, repellendus a quidem dolore aut fugiat sit quo quas maxime rerum, laudantium possimus. Fugit harum, nostrum ab tempore error dignissimos dolores perferendis maiores quam. Fuga labore, aspernatur laboriosam quo officia deserunt, saepe quia error est enim doloremque praesentium vero, ipsa nemo! Numquam quibusdam hic delectus nam voluptate eos, fugit laboriosam consequatur sint impedit dolores incidunt, quam quaerat doloremque, error ratione ipsum culpa! Dolorum molestias accusantium fugit enim et eveniet error.</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>

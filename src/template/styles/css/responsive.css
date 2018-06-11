@@ -1,11 +1,319 @@
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1730px) {
+  .better {
+    background-position: 52% 0; } }
+
+@media screen and (max-width: 1460px) {
   .case {
-    width: 950px; } }
+    width: 1199px; }
+  .panel {
+    background-color: #fff; }
+    .panel__address {
+      margin-right: 50px; }
+    .panel__btn-callback {
+      display: none; }
+  .header {
+    background-position: 30% -10px; }
+    .header__round {
+      display: none; }
+    .header__wrap {
+      margin-top: -2px; }
+  .hospitals__item {
+    margin-right: 60px; } }
+
+@media screen and (max-width: 1270px) {
+  .products:before, .products:after {
+    display: none; } }
+
+@media screen and (max-width: 1220px) {
+  .case {
+    width: 950px; }
+  .panel {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+    .panel__btn-callback {
+      display: block; }
+    .panel__logo {
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-bottom: 20px; }
+    .panel__contacts {
+      text-align: center; }
+    .panel__wrap {
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+  .icons {
+    margin-bottom: 10px; }
+    .icons li {
+      width: 50% !important;
+      margin-bottom: 10px; }
+  .header {
+    background: none;
+    background-color: rgba(3, 171, 214, 0.9); }
+    .header__wrap {
+      background: none;
+      min-height: 1px;
+      padding-bottom: 25px; }
+      .header__wrap:before {
+        display: none; }
+    .header__title {
+      font-size: 32px;
+      line-height: normal;
+      margin-bottom: 20px; }
+    .header__desc {
+      margin-bottom: 15px; }
+  .title {
+    font-size: 26px;
+    line-height: normal; }
+  .catalog, .products, .guarantee, .brands, .at-work, .certificates, .hospitals, .better, .delivery {
+    padding-top: 25px;
+    padding-bottom: 20px; }
+    .catalog__title, .products__title, .guarantee__title, .brands__title, .at-work__title, .certificates__title, .hospitals__title, .better__title, .delivery__title {
+      margin-bottom: 25px; }
+  .catalog__desc {
+    display: none; }
+  .catalog__list {
+    width: 100%; }
+  .product__title {
+    margin-bottom: 25px; }
+  .product__left, .product__right {
+    width: 100%; }
+  .product__right {
+    padding-left: 0; }
+  .product__img {
+    margin-bottom: 15px; }
+  .product__btn {
+    margin-bottom: 20px;
+    display: none; }
+  .tabs__nav {
+    width: 230px; }
+  .tabs__wrap {
+    padding: 15px;
+    width: -webkit-calc(100% - 230px);
+    width: calc(100% - 230px); }
+  .tabs__nav {
+    padding-top: 0;
+    padding-bottom: 50px; }
+    .tabs__nav ul li {
+      font-size: 17px; }
+  .line-pink:before {
+    display: none; }
+  .guarantee {
+    background: #03ABD6; }
+    .guarantee:before, .guarantee:after {
+      display: none; }
+    .guarantee__title {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+    .guarantee__item {
+      width: 33.333% !important;
+      text-align: center; }
+    .guarantee__text {
+      font-size: 14px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 30px; }
+    .guarantee__btn {
+      margin-left: auto;
+      margin-right: auto; }
+  .brands__wrap .row {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+  .brands__wrap .slick-arrow {
+    top: -60px; }
+  .brands__item {
+    width: 33.333%; }
+  .certificates__title {
+    text-align: center; }
+  .certificates .slick-arrow {
+    top: 50%; }
+  .certificates .slick-prev {
+    left: 0;
+    right: auto; }
+  .certificates .slick-next {
+    right: 0; }
+  .better {
+    background-image: none;
+    background: #03ABD6; }
+    .better__desc {
+      font-size: 20px;
+      margin-bottom: 10px; }
+    .better__form {
+      width: 100%; }
+  .form__title {
+    font-size: 20px;
+    line-height: normal; }
+  .delivery__title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .delivery__form {
+    margin-right: auto;
+    padding: 20px;
+    width: 100%;
+    max-width: 530px; }
+  .delivery__count {
+    display: none; }
+  .gift {
+    text-align: left; }
+  .thanks .header__title {
+    padding-top: 70px; } }
 
 @media screen and (max-width: 970px) {
   .case {
-    width: 750px; } }
+    width: 750px; }
+  .panel {
+    position: relative; }
+    .panel__logo {
+      width: auto;
+      margin-bottom: 15px; }
+    .panel__wrap {
+      display: block;
+      text-align: center; }
+      .panel__wrap br {
+        display: none; }
+    .panel__address, .panel__contacts, .panel__btn-callback {
+      width: 100%;
+      max-width: 280px;
+      margin-left: auto;
+      margin-right: auto; }
+    .panel__address {
+      text-align: left; }
+    .panel__contacts {
+      margin-bottom: 15px; }
+    .panel__btn-callback {
+      display: block; }
+  .header {
+    padding-top: 0; }
+    .header__title {
+      padding-top: 20px; }
+    .header__btns {
+      margin-right: 0; }
+  .logo {
+    text-align: center; }
+    .logo__img {
+      margin-right: 0; }
+    .logo__text {
+      display: none; }
+  .icons {
+    padding-right: 0; }
+    .icons li {
+      width: 100% !important; }
+  .catalog {
+    padding-bottom: 20px; }
+    .catalog__item {
+      height: 200px;
+      margin-bottom: 10px; }
+    .catalog__text {
+      font-size: 20px;
+      line-height: normal;
+      padding-left: 10px;
+      padding-right: 10px; }
+  .footer {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .footer .case {
+      padding-bottom: 70px; }
+    .footer__copy {
+      position: absolute;
+      bottom: 0;
+      left: 15px;
+      right: 15px; }
+    .footer__wrap {
+      display: block; }
+    .footer__left, .footer__right {
+      margin-left: auto;
+      margin-right: auto;
+      width: 280px;
+      text-align: center; }
+    .footer__btn-callback {
+      margin-right: auto; }
+    .footer__contacts {
+      margin-bottom: 15px; }
+  .thanks {
+    text-align: center; }
+    .thanks .header__title {
+      padding-top: 25px;
+      margin-bottom: 30px; }
+    .thanks .header__text {
+      margin-bottom: 15px; }
+    .thanks .header__btn {
+      margin-left: auto;
+      margin-right: auto; } }
 
 @media screen and (max-width: 767px) {
   .case {
-    width: 100%; } }
+    width: 100%; }
+  .header__title {
+    font-size: 23px;
+    text-align: center; }
+  .header__desc {
+    font-size: 18px;
+    text-align: center; }
+  .header__btn {
+    width: 100%; }
+    .header__btn:nth-of-type(1) {
+      margin-bottom: 15px; }
+  .icons__text {
+    font-size: 16px;
+    padding-left: 15px; }
+  .catalog__item {
+    height: 150px; }
+  .catalog__list {
+    padding-left: 0; }
+  .catalog__img, .catalog__text {
+    right: 0; }
+  .catalog .slick-slide {
+    width: 100% !important; }
+  .tabs__nav, .tabs__wrap {
+    width: 100%; }
+  .tabs__nav {
+    padding-bottom: 0; }
+  .guarantee__item {
+    width: 100% !important; }
+  .guarantee__subtitle {
+    margin-bottom: 15px; }
+  .brands {
+    padding-bottom: 0px; }
+    .brands__title {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto; }
+    .brands__item {
+      width: 50%; }
+    .brands .slick-arrow {
+      display: none; }
+  .at-work {
+    background: #03ABD6; }
+    .at-work__title {
+      text-align: center; }
+    .at-work__form {
+      width: 100%; }
+      .at-work__form:before, .at-work__form:after {
+        display: none; }
+  .gift {
+    margin-top: 20px; }
+  .hospitals, .better {
+    display: none; } }
+
+@media screen and (max-width: 540px) {
+  .brands__item {
+    width: 100%;
+    margin-bottom: 20px; }
+  .delivery .form__btn {
+    height: auto;
+    line-height: normal;
+    padding: 10px 5px; }
+  .gift__text {
+    font-size: 14px;
+    padding-left: 15px; } }
+
+@media screen and (max-width: 445px) {
+  .footer .case {
+    padding-bottom: 90px; } }
